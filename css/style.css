@@ -104,7 +104,8 @@ h1 {
 #resultbox {
   color: #339235;
   font-size: 25px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  text-align: center; }
 
 #inputboxmidleft {
   width: 50%;
@@ -194,6 +195,20 @@ h4 {
   font-size: 20px;
   margin-top: 0; }
 
+#team {
+  width: 450px;
+  padding-top: 50px; }
+
+#newheadline {
+  font-size: 50px;
+  text-align: center; }
+
+#newhoverbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
 footer {
   background-color: black;
   display: flex;
@@ -241,6 +256,9 @@ footer {
     width: 80%; }
 
   #banner {
-    display: none; } }
+    display: none; }
+
+  #tophead {
+    justify-content: center; } }
 
 /*# sourceMappingURL=style.css.map */
